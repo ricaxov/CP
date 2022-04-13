@@ -1,8 +1,8 @@
-vii adj[maxN];
+vector<ii> adj[maxN];
 int dijkstra(int o, int d){
-    vi dist(maxN, inf);
+    vector<int>dist(maxN, inf);
     priority_queue<ii, vector<ii>, greater<ii> >pq;
-    vi pai(maxN, -1);
+    vector<int>pai(maxN, -1);
     dist[o]=0;
     pq.push({0,o});
     while(!pq.empty()){
