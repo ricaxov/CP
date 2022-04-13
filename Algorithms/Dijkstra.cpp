@@ -1,4 +1,4 @@
-vector<ii> adj[maxN];
+vector<ii>adj[maxN];
 int dijkstra(int o, int d){
     vector<int>dist(maxN, inf);
     priority_queue<ii, vector<ii>, greater<ii> >pq;
