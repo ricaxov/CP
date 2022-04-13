@@ -7,7 +7,9 @@ int dijkstra(int o, int d){
     pq.push({0,o});
     while(!pq.empty()){
         ii u=pq.top(); pq.pop();
-        if(dist[u.s]!=u.f) continue;
+        if(dist[u.s]!=u.f){
+            continue;
+        }
         for(auto v : adj[u.s]){
             int to=v.s;
             int len=v.f;
