@@ -2,7 +2,6 @@
 #define inf 1e9
 #define f first
 #define s second
-#define maxN 9999
 #define pi 3.14159
 #define pb push_back
 #define ll long long
