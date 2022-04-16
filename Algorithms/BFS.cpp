@@ -4,7 +4,7 @@ int bfs(int sx, int sy, int fx, int fy, int mx, int my){
     q.push({sx,{sy,0}});
     vis[sx][sy]=true;
     while(!q.empty()){
-        pair<int,ii> u=q.front();q.pop();
+        pair<int,ii>u=q.front();q.pop();
         if(u.f==fx && u.s.f==fy){
             return u.s.s;
         }
