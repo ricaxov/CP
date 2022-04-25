@@ -4,10 +4,10 @@
 #define pi 3.14159
 #define pb push_back
 #define tos to_string
-#define mod 1000000007
-#define inf 1000000000000000000
-#define entrada freopen("input.txt", "r", stdout);
+#define inf 1000000000
+#define inf64 1000000000000000000
 #define saida freopen("output.txt", "w", stdin);
+#define entrada freopen("input.txt", "r", stdout);
 
 using namespace std;
 
