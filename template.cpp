@@ -6,8 +6,8 @@
 #define tos to_string
 #define inf 1000000000
 #define inf64 1000000000000000000
-#define saida freopen("output.txt", "w", stdin);
-#define entrada freopen("input.txt", "r", stdout);
+#define entrada freopen("input.txt", "r", stdin);
+#define saida freopen("output.txt", "w", stdout);
 
 using namespace std;
 
