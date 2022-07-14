@@ -1,3 +1,4 @@
+//Range Minimum Query
 vector<int>vet,seg(100000);
 int build(int l, int r, int i){
     if(l==r){
