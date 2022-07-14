@@ -1,11 +1,14 @@
 //Range Minimum Query
 vector<int>vet,seg(100000);
-int build(int l, int r, int i){
+void build(int l, int r, int i){
     if(l==r){
-        return seg[i]=vet[l];
+        seg[i]=vet[l];
+        return;
     }
     int mid=(l+r)/2;
-    return seg[i]=min(build(l,mid,2*i+1),build(mid+1,r,2*i+2));
+    build(l,mid,2*i+1);
+    build(mid+1,r,2*i+2);
+    seg[i]=min(seg[2*i+1],seg[2*i+2]);
 }
 int query(int l, int r, int ql, int qr, int i){
     if(l>=ql && r<=qr) return seg[i];
