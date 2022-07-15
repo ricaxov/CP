@@ -1,4 +1,4 @@
-#Gotejo da porra (Penis Virtual Edition)
+''' Gotejo da porra (Penis Virtual Edition) '''
 import turtle
 
 t = turtle.Turtle()
